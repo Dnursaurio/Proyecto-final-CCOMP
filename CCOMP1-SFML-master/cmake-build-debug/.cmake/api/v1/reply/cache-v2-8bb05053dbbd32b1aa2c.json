@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug"
+			"value" : "d:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1535,7 +1535,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug"
 		},
 		{
 			"name" : "CMakeSFMLProject_IS_TOP_LEVEL",
@@ -1559,7 +1559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master"
 		},
 		{
 			"name" : "CPACK_BINARY_7Z",
@@ -1711,7 +1711,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1783,7 +1783,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a][D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers][v()]"
+			"value" : "[D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a][D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenAL",
@@ -1795,7 +1795,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a][D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL][v()]"
+			"value" : "[D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a][D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1819,7 +1819,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a][D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers][D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers][v()]"
+			"value" : "[D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a][D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers][D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FLAC_INCLUDE_DIR",
@@ -1835,7 +1835,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "FLAC_LIBRARY",
@@ -1851,7 +1851,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1867,7 +1867,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_ft2build",
@@ -1883,7 +1883,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_LIBRARY",
@@ -1899,7 +1899,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a"
 		},
 		{
 			"name" : "GIT_EXECUTABLE",
@@ -1979,7 +1979,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "OGG_LIBRARY",
@@ -1995,7 +1995,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a"
 		},
 		{
 			"name" : "OPENAL_INCLUDE_DIR",
@@ -2011,7 +2011,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL"
 		},
 		{
 			"name" : "OPENAL_LIBRARY",
@@ -2027,7 +2027,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -2071,7 +2071,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build"
 		},
 		{
 			"name" : "SFML_BUILD_AUDIO",
@@ -2203,7 +2203,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src"
 		},
 		{
 			"name" : "SFML_USE_STATIC_STD_LIBS",
@@ -2255,7 +2255,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a"
 		},
 		{
 			"name" : "VORBISFILE_LIBRARY",
@@ -2271,7 +2271,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a"
 		},
 		{
 			"name" : "VORBIS_INCLUDE_DIR",
@@ -2287,7 +2287,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "VORBIS_LIBRARY",
@@ -2303,7 +2303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a"
+			"value" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a"
 		},
 		{
 			"name" : "WARNINGS_AS_ERRORS",

@@ -11,7 +11,7 @@ CXX_FLAGS = -g -fdiagnostics-color=always
 
 RC_DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
 
-RC_INCLUDES = -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\include -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\stb_image -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\glad\include -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\freetype2
+RC_INCLUDES = -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\include -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\stb_image -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\glad\include -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\freetype2
 
 RC_FLAGS = 
 

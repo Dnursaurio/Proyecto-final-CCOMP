@@ -56,10 +56,10 @@ RM = "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\ALT_Byteland\CCOMP1-SFML-master
+CMAKE_SOURCE_DIR = D:\Proyecto-final-CCOMP\CCOMP1-SFML-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/CPackSourceConfig.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,9 +151,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -271,6 +271,78 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
+src/Juego.obj: src/Juego.cpp.obj
+.PHONY : src/Juego.obj
+
+# target to build an object file
+src/Juego.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj
+.PHONY : src/Juego.cpp.obj
+
+src/Juego.i: src/Juego.cpp.i
+.PHONY : src/Juego.i
+
+# target to preprocess a source file
+src/Juego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.i
+.PHONY : src/Juego.cpp.i
+
+src/Juego.s: src/Juego.cpp.s
+.PHONY : src/Juego.s
+
+# target to generate assembly for a file
+src/Juego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.s
+.PHONY : src/Juego.cpp.s
+
+src/Jugador.obj: src/Jugador.cpp.obj
+.PHONY : src/Jugador.obj
+
+# target to build an object file
+src/Jugador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj
+.PHONY : src/Jugador.cpp.obj
+
+src/Jugador.i: src/Jugador.cpp.i
+.PHONY : src/Jugador.i
+
+# target to preprocess a source file
+src/Jugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.i
+.PHONY : src/Jugador.cpp.i
+
+src/Jugador.s: src/Jugador.cpp.s
+.PHONY : src/Jugador.s
+
+# target to generate assembly for a file
+src/Jugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.s
+.PHONY : src/Jugador.cpp.s
+
+src/libs.obj: src/libs.cpp.obj
+.PHONY : src/libs.obj
+
+# target to build an object file
+src/libs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj
+.PHONY : src/libs.cpp.obj
+
+src/libs.i: src/libs.cpp.i
+.PHONY : src/libs.i
+
+# target to preprocess a source file
+src/libs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.i
+.PHONY : src/libs.cpp.i
+
+src/libs.s: src/libs.cpp.s
+.PHONY : src/libs.s
+
+# target to generate assembly for a file
+src/libs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.s
+.PHONY : src/libs.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -316,6 +388,15 @@ help:
 	@echo ... sfml-network
 	@echo ... sfml-system
 	@echo ... sfml-window
+	@echo ... src/Juego.obj
+	@echo ... src/Juego.i
+	@echo ... src/Juego.s
+	@echo ... src/Jugador.obj
+	@echo ... src/Jugador.i
+	@echo ... src/Jugador.s
+	@echo ... src/libs.obj
+	@echo ... src/libs.i
+	@echo ... src/libs.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

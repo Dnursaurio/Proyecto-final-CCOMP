@@ -56,10 +56,10 @@ RM = "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\ALT_Byteland\CCOMP1-SFML-master
+CMAKE_SOURCE_DIR = D:\Proyecto-final-CCOMP\CCOMP1-SFML-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/CPackSourceConfig.cmake
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,14 +151,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-build\src\SFML\Main\\CMakeFiles\progress.marks
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles 0
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-build\src\SFML\Main\\CMakeFiles\progress.marks
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/clean
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/clean
 .PHONY : clean
 
 # The main clean target
@@ -167,22 +167,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/preinstall
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/preinstall
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/rule:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/rule
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/rule
 .PHONY : _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/rule
 
 # Convenience name for target.
@@ -191,7 +191,7 @@ sfml-main: _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/rule
 
 # fast build rule for target.
 sfml-main/fast:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/build
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/build
 .PHONY : sfml-main/fast
 
 MainWin32.obj: MainWin32.cpp.obj
@@ -199,7 +199,7 @@ MainWin32.obj: MainWin32.cpp.obj
 
 # target to build an object file
 MainWin32.cpp.obj:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj
 .PHONY : MainWin32.cpp.obj
 
 MainWin32.i: MainWin32.cpp.i
@@ -207,7 +207,7 @@ MainWin32.i: MainWin32.cpp.i
 
 # target to preprocess a source file
 MainWin32.cpp.i:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.i
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.i
 .PHONY : MainWin32.cpp.i
 
 MainWin32.s: MainWin32.cpp.s
@@ -215,7 +215,7 @@ MainWin32.s: MainWin32.cpp.s
 
 # target to generate assembly for a file
 MainWin32.cpp.s:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.s
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.s
 .PHONY : MainWin32.cpp.s
 
 # Help Target
@@ -247,6 +247,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

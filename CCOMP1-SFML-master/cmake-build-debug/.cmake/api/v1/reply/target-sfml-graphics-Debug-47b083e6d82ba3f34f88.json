@@ -152,26 +152,26 @@
 			[
 				{
 					"backtrace" : 11,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 12,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 13,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",
@@ -232,26 +232,26 @@
 			[
 				{
 					"backtrace" : 11,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 12,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 13,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",
@@ -275,26 +275,26 @@
 			[
 				{
 					"backtrace" : 11,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 12,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 13,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "RC",
@@ -308,11 +308,11 @@
 	[
 		{
 			"backtrace" : 4,
-			"id" : "sfml-window::@5730451e331e3690ae65"
+			"id" : "sfml-system::@8cb1db2982443611e568"
 		},
 		{
 			"backtrace" : 4,
-			"id" : "sfml-system::@8cb1db2982443611e568"
+			"id" : "sfml-window::@5730451e331e3690ae65"
 		}
 	],
 	"folder" : 

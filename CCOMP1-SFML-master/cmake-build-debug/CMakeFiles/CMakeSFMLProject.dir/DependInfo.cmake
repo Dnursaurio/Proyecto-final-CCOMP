@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/ALT_Byteland/CCOMP1-SFML-master/src/main.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj.d"
+  "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/src/Juego.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj.d"
+  "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/src/Jugador.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj.d"
+  "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/src/libs.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj.d"
+  "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/src/main.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -7,9 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "CMakeFiles/3.26.4/CMakeSystem.cmake"
-  "CMakeLists.txt"
-  "sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake"
   "D:/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
   "D:/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
   "D:/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
@@ -22,6 +19,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/ExternalProject/mkdirs.cmake.in"
   "D:/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake"
   "D:/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake"
+  "CMakeFiles/3.26.4/CMakeSystem.cmake"
+  "CMakeLists.txt"
+  "sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake"
   )
 
 # The corresponding makefile is:

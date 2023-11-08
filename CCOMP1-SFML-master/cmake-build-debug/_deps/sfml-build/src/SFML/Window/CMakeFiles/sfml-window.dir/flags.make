@@ -11,7 +11,7 @@ CXX_FLAGS = -g -fdiagnostics-color=always
 
 RC_DEFINES = -DSFML_WINDOW_EXPORTS -DUNICODE -D_UNICODE
 
-RC_INCLUDES = -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\include -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\vulkan -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\glad\include
+RC_INCLUDES = -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\include -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\vulkan -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\glad\include
 
 RC_FLAGS = 
 

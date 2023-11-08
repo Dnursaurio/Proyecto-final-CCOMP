@@ -11,7 +11,7 @@ CXX_FLAGS = -g -fdiagnostics-color=always
 
 RC_DEFINES = -DSFML_SYSTEM_EXPORTS
 
-RC_INCLUDES = -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\include -I D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src
+RC_INCLUDES = -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\include -I D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src
 
 RC_FLAGS = 
 

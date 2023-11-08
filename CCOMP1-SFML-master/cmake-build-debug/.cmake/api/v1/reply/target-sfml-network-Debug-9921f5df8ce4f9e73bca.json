@@ -99,11 +99,11 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
 				}
 			],
 			"language" : "CXX",
@@ -132,11 +132,11 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
+					"path" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src"
 				}
 			],
 			"language" : "RC",

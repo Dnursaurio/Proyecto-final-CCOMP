@@ -52,10 +52,10 @@ RM = "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\ALT_Byteland\CCOMP1-SFML-master
+CMAKE_SOURCE_DIR = D:\Proyecto-final-CCOMP\CCOMP1-SFML-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CMakeSFMLProject.dir/depend.make
@@ -70,27 +70,78 @@ include CMakeFiles/CMakeSFMLProject.dir/flags.make
 
 CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/flags.make
 CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/includes_CXX.rsp
-CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj: D:/ALT_Byteland/CCOMP1-SFML-master/src/main.cpp
+CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/src/main.cpp
 CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj"
-	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj -MF CMakeFiles\CMakeSFMLProject.dir\src\main.cpp.obj.d -o CMakeFiles\CMakeSFMLProject.dir\src\main.cpp.obj -c D:\ALT_Byteland\CCOMP1-SFML-master\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj -MF CMakeFiles\CMakeSFMLProject.dir\src\main.cpp.obj.d -o CMakeFiles\CMakeSFMLProject.dir\src\main.cpp.obj -c D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\main.cpp
 
 CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.i"
-	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ALT_Byteland\CCOMP1-SFML-master\src\main.cpp > CMakeFiles\CMakeSFMLProject.dir\src\main.cpp.i
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\main.cpp > CMakeFiles\CMakeSFMLProject.dir\src\main.cpp.i
 
 CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.s"
-	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ALT_Byteland\CCOMP1-SFML-master\src\main.cpp -o CMakeFiles\CMakeSFMLProject.dir\src\main.cpp.s
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\main.cpp -o CMakeFiles\CMakeSFMLProject.dir\src\main.cpp.s
+
+CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/flags.make
+CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/includes_CXX.rsp
+CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/src/libs.cpp
+CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj -MF CMakeFiles\CMakeSFMLProject.dir\src\libs.cpp.obj.d -o CMakeFiles\CMakeSFMLProject.dir\src\libs.cpp.obj -c D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\libs.cpp
+
+CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.i"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\libs.cpp > CMakeFiles\CMakeSFMLProject.dir\src\libs.cpp.i
+
+CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.s"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\libs.cpp -o CMakeFiles\CMakeSFMLProject.dir\src\libs.cpp.s
+
+CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/flags.make
+CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/includes_CXX.rsp
+CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/src/Juego.cpp
+CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj -MF CMakeFiles\CMakeSFMLProject.dir\src\Juego.cpp.obj.d -o CMakeFiles\CMakeSFMLProject.dir\src\Juego.cpp.obj -c D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\Juego.cpp
+
+CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.i"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\Juego.cpp > CMakeFiles\CMakeSFMLProject.dir\src\Juego.cpp.i
+
+CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.s"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\Juego.cpp -o CMakeFiles\CMakeSFMLProject.dir\src\Juego.cpp.s
+
+CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/flags.make
+CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/includes_CXX.rsp
+CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/src/Jugador.cpp
+CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj: CMakeFiles/CMakeSFMLProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj -MF CMakeFiles\CMakeSFMLProject.dir\src\Jugador.cpp.obj.d -o CMakeFiles\CMakeSFMLProject.dir\src\Jugador.cpp.obj -c D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\Jugador.cpp
+
+CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.i"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\Jugador.cpp > CMakeFiles\CMakeSFMLProject.dir\src\Jugador.cpp.i
+
+CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.s"
+	"D:\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\src\Jugador.cpp -o CMakeFiles\CMakeSFMLProject.dir\src\Jugador.cpp.s
 
 # Object files for target CMakeSFMLProject
 CMakeSFMLProject_OBJECTS = \
-"CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj"
+"CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj" \
+"CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj" \
+"CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj" \
+"CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj"
 
 # External object files for target CMakeSFMLProject
 CMakeSFMLProject_EXTERNAL_OBJECTS =
 
 bin/CMakeSFMLProject.exe: CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj
+bin/CMakeSFMLProject.exe: CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj
+bin/CMakeSFMLProject.exe: CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj
+bin/CMakeSFMLProject.exe: CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj
 bin/CMakeSFMLProject.exe: CMakeFiles/CMakeSFMLProject.dir/build.make
 bin/CMakeSFMLProject.exe: _deps/sfml-build/lib/libsfml-graphics-d.a
 bin/CMakeSFMLProject.exe: _deps/sfml-build/lib/libsfml-window-d.a
@@ -98,9 +149,9 @@ bin/CMakeSFMLProject.exe: _deps/sfml-build/lib/libsfml-system-d.a
 bin/CMakeSFMLProject.exe: CMakeFiles/CMakeSFMLProject.dir/linkLibs.rsp
 bin/CMakeSFMLProject.exe: CMakeFiles/CMakeSFMLProject.dir/objects1.rsp
 bin/CMakeSFMLProject.exe: CMakeFiles/CMakeSFMLProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin\CMakeSFMLProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin\CMakeSFMLProject.exe"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Copy OpenAL DLL"
-	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E copy D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/bin/x64/openal32.dll D:/ALT_Byteland/CCOMP1-SFML-master/cmake-build-debug/bin
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E copy D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/bin/x64/openal32.dll D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/bin
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CMakeSFMLProject.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -112,6 +163,6 @@ CMakeFiles/CMakeSFMLProject.dir/clean:
 .PHONY : CMakeFiles/CMakeSFMLProject.dir/clean
 
 CMakeFiles/CMakeSFMLProject.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\ALT_Byteland\CCOMP1-SFML-master D:\ALT_Byteland\CCOMP1-SFML-master D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug D:\ALT_Byteland\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles\CMakeSFMLProject.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Proyecto-final-CCOMP\CCOMP1-SFML-master D:\Proyecto-final-CCOMP\CCOMP1-SFML-master D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles\CMakeSFMLProject.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CMakeSFMLProject.dir/depend
 
