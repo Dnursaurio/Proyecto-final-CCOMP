@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CMakeSFMLProject.dir/src/Includes/libs.cpp.obj"
+  "CMakeFiles/CMakeSFMLProject.dir/src/Includes/libs.cpp.obj.d"
   "CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj"
   "CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj.d"
   "CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj"
   "CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj.d"
-  "CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj"
-  "CMakeFiles/CMakeSFMLProject.dir/src/libs.cpp.obj.d"
   "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj"
   "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj.d"
   "bin/CMakeSFMLProject.exe"

@@ -5,22 +5,30 @@
 class Jugador{
 private:
     sf::Sprite sprite;
-    sf::Texture texturesheet;
+    sf::Texture textureSheet;
+    bool movimiento;
+    sf::Clock timerAnimacion;
 
-    //Animacion
+    //Animación
+    sf::IntRect frameActual;
 
     //Movimiento
 
     //Centro
 
-    void inizializartextura();
+    void inicializarVariables();
+    void inicializartextura();
     void inicializarsprite();
+    void inicializarAnimaciones();
 
 public:
+    //Constructor
     Jugador();
+    //Destructor
     virtual ~Jugador();
-
-    //funciones
+    //Funciones
+    void updateMovJugador();
+    void updateAnimaciones();
     void update();
     void render(sf::RenderTarget& target);
 };

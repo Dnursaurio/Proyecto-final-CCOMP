@@ -1,6 +1,6 @@
 #ifndef CMAKESFMLPROJECT_JUEGO_H
 #define CMAKESFMLPROJECT_JUEGO_H
-#include "libs.h"
+#include "Includes/libs.h"
 #include "Jugador.h"
 class Juego{
 private:
@@ -12,12 +12,14 @@ private:
     void Iniciarventana();
     void IniciarJugador();
 public:
-    //Funciones
+    //Constructor
     Juego();
+    //Destructor
     virtual ~Juego();
-    //mas funciones
+    //Funciones
     void updatePlayer();
     void update();
+    void renderPlayer();
     void render();
     const sf::RenderWindow& getVentana() const;
 };
