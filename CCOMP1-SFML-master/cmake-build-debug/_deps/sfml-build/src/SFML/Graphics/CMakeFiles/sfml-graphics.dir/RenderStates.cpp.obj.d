@@ -1,13 +1,13 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj: \
- E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\src\SFML\Graphics\RenderStates.cpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src\SFML\Graphics\RenderStates.cpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -62,7 +62,7 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stddef.h

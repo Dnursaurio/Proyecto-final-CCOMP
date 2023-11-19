@@ -1,12 +1,12 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj: \
- E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\src\SFML\Window\Win32\JoystickImpl.cpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/String.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src\SFML\Window\Win32\JoystickImpl.cpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/String.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -157,11 +157,11 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.c
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.inl \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.inl \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stream_iterator.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/String.inl \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/Window/Win32/JoystickImpl.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/String.inl \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Window/Win32/JoystickImpl.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/excpt.h \
@@ -409,9 +409,9 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.c
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/imm.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/dinput.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Clock.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Time.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Err.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Time.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Err.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \

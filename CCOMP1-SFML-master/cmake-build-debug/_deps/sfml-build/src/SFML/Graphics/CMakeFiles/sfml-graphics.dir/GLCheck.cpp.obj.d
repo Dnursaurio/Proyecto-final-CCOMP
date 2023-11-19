@@ -1,9 +1,9 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj: \
- E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\src\SFML\Graphics\GLCheck.cpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
+ C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src\SFML\Graphics\GLCheck.cpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
@@ -15,8 +15,8 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj:
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Err.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Err.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

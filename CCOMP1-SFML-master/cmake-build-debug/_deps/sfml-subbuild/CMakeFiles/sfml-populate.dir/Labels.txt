@@ -1,14 +1,14 @@
 # Target labels
  sfml-populate
 # Source files and their labels
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
-E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule

@@ -1,9 +1,9 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj: \
- E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/System/Win32/SleepImpl.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Time.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/System/Win32/SleepImpl.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Time.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \

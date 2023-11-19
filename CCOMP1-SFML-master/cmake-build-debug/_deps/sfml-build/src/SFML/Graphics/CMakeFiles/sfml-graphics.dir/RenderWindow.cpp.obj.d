@@ -1,13 +1,13 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.obj: \
- E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\src\SFML\Graphics\RenderWindow.cpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src\SFML\Graphics\RenderWindow.cpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -62,16 +62,16 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/View.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/View.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
@@ -128,22 +128,22 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Window.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Window.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Clock.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Time.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/String.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Time.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/String.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
@@ -189,17 +189,17 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.inl \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.inl \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stream_iterator.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/System/String.inl \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
- E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/System/String.inl \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/headers/glad/include/glad/gl.h \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
+ C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Context.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \

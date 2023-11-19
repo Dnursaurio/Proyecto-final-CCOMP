@@ -3,7 +3,7 @@
 
 void Jugador::inicializarVariables()
 {
-    this->movimiento = false;
+    this->fotogramas= ESTADOS_DE_NIMACION_JUGADOR::INAC;
 }
 
 
@@ -34,56 +34,109 @@ Jugador::Jugador()
     this->inicializartextura();
     this->inicializarsprite();
     this->inicializarAnimaciones();
+    this->inicializarGravedad();
 }
-
+void Jugador::inicializarGravedad() {
+    this->velomx=15.f;
+    this->velomin = 1.f;
+    this->ace=2.f;
+    this->desa=0.90f;
+}
 Jugador::~Jugador()
 {
 
 }
+void Jugador::updateGravedad() {
+    //Desaceleracion
+    this->velo *=this->desa;
+
+
+//limite de desaceleracion
+
+    if(std::abs(this->velo.x)< this->velomin)
+        this->velo.x=0.f;
+    if(std::abs(this->velo.y)< this->velomin)
+        this->velo.y=0.f;
+
+    this->sprite.move(this->velo);
+
+}
+    void Jugador::move(const float dir_x, const float dir_y) {
+
+//Alceleracion
+    this->velo.x += dir_x * this->ace;
+//  this->velo.y += dir_x * this->ace;
+
+//velocidad limite
+    if(std::abs(this->velo.x)> this->velomx){
+        this->velo.x = this-> velomx *((this->velo.x<0.f) ?  -1.f:1.f);
+    }
+}
 
 void Jugador::updateMovJugador()
 {
-    this->movimiento = false;
+    this->fotogramas= ESTADOS_DE_NIMACION_JUGADOR::INAC;
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::A))
     {
-        this->sprite.move(-1.f, 0.f);
-        this->movimiento = true;
+        this->move(-1.f, 0.f);
+        this->fotogramas= ESTADOS_DE_NIMACION_JUGADOR::IZQ;
     }
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::D))
     {
-        this->sprite.move(1.f, 0.f);
-        this->movimiento = true;
+        this->move(1.f, 0.f);
+        this->fotogramas= ESTADOS_DE_NIMACION_JUGADOR::DERE;
     }
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-    {
-        this->sprite.move(0.f, -1.f);
-        this->movimiento = true;
+
+
+//    if(sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+//    {
+//        this->sprite.move(0.f, -1.f);
+//        this->fotogramas= ESTADOS_DE_NIMACION_JUGADOR::ARRIBA
+//    }
+//    if(sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+//    {
+//        this->sprite.move(0.f, 1.f);
+//        this->fotogramas= ESTADOS_DE_NIMACION_JUGADOR::BAJO
+//    }
+}
+
+void Jugador::updateAnimaciones() {
+    if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::INAC) {
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.2f) //Velocidad de cambio de frames
+        {
+            this->frameActual.top = 0.f;
+            this->frameActual.left += 40.f;
+            if (this->frameActual.left >= 160.f)
+                this->frameActual.left = 0;
+
+            this->timerAnimacion.restart();
+            this->sprite.setTextureRect(this->frameActual);
+        }
     }
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+
+    else if(this->fotogramas==ESTADOS_DE_NIMACION_JUGADOR::DERE)
     {
-        this->sprite.move(0.f, 1.f);
-        this->movimiento = true;
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.1f) //Velocidad de cambio de frames
+        {
+            this->frameActual.top = 50.f;
+            this->frameActual.left += 40.f;
+            if (this->frameActual.left >= 160.f)
+                this->frameActual.left = 0;
+
+            this->timerAnimacion.restart();
+            this->sprite.setTextureRect(this->frameActual);
+        }
     }
 }
 
-void Jugador::updateAnimaciones()
-{
-    if(this->timerAnimacion.getElapsedTime().asSeconds() >= 0.2f) //Velocidad de cambio de frames
-    {
-        if (this->movimiento == false) //Animación con Frames
-        {
-            this->frameActual.left += 40.f;
-            if (this->frameActual.left >= 160.f) {
-                this->frameActual.left = 0;
-            }
-        }
-        this->timerAnimacion.restart();
-        this->sprite.setTextureRect(this->frameActual);
-    }
-}
+
 
 void Jugador::update()
 {
+
+
+
+    this->updateGravedad();
     this->updateMovJugador();
     this->updateAnimaciones();
 }
@@ -92,3 +145,9 @@ void Jugador::render(sf::RenderTarget &target)
 {
     target.draw(this->sprite);
 }
+
+
+
+
+
+

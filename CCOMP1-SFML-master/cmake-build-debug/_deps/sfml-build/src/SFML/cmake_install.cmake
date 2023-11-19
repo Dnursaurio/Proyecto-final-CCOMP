@@ -1,4 +1,4 @@
-# Install script for directory: E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-src/src/SFML
+# Install script for directory: C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-build/src/SFML/System/cmake_install.cmake")
-  include("E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-build/src/SFML/Main/cmake_install.cmake")
-  include("E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
-  include("E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-build/src/SFML/Network/cmake_install.cmake")
-  include("E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
-  include("E:/Byteland_alt/SFML-Fin/cmake-build-debug/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake")
+  include("C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/System/cmake_install.cmake")
+  include("C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Main/cmake_install.cmake")
+  include("C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
+  include("C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Network/cmake_install.cmake")
+  include("C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
+  include("C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

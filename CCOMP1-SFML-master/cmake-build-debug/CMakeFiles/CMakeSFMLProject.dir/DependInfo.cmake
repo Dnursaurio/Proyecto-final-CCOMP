@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Byteland_alt/SFML-Fin/src/Includes/libs.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/Includes/libs.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/Includes/libs.cpp.obj.d"
-  "E:/Byteland_alt/SFML-Fin/src/Juego.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj.d"
-  "E:/Byteland_alt/SFML-Fin/src/Jugador.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj.d"
-  "E:/Byteland_alt/SFML-Fin/src/main.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj.d"
+  "C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/src/Includes/libs.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/Includes/libs.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/Includes/libs.cpp.obj.d"
+  "C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/src/Juego.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/Juego.cpp.obj.d"
+  "C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/src/Jugador.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.obj.d"
+  "C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/src/main.cpp" "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj" "gcc" "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

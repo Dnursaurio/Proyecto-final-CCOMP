@@ -11,7 +11,7 @@ CXX_FLAGS = -g -fdiagnostics-color=always
 
 RC_DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
 
-RC_INCLUDES = -I E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\include -I E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\src -I E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\extlibs\headers\minimp3 -I E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\extlibs\headers\AL -I E:\Byteland_alt\SFML-Fin\cmake-build-debug\_deps\sfml-src\extlibs\headers
+RC_INCLUDES = -I C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\include -I C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\src -I C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\minimp3 -I C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers\AL -I C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\_deps\sfml-src\extlibs\headers
 
 RC_FLAGS = 
 
