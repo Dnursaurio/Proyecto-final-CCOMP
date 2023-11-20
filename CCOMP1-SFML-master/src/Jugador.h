@@ -1,7 +1,7 @@
-#ifndef CMAKESFMLPROJECT_JUGADOR_H
-#define CMAKESFMLPROJECT_JUGADOR_H
+#pragma once
 
-enum ESTADOS_DE_NIMACION_JUGADOR{IZQ=1,INAC=0,DERE=2,ARRIBA,BAJO};
+enum ESTADOS_DE_NIMACION_JUGADOR{INAC=0,IZQ, DERE,SALTO,CAIDA};
+
 class Jugador{
 private:
     sf::Sprite sprite;
@@ -11,35 +11,50 @@ private:
     //Animación
     short fotogramas;
     sf::IntRect frameActual;
+    bool cambioAnimaciones;
 
-    //Gravedad
+    //Fisica
     sf::Vector2f velo;
-    float velomx;
+    float velomax;
     float velomin;
     float ace;
     float desa;
+    float gravedad;
+    float velomaxY;
+    bool puedeSaltar;
 
     //Centro
-
     void inicializarVariables();
     void inicializartextura();
     void inicializarsprite();
     void inicializarAnimaciones();
-    void inicializarGravedad();
+    void inicializarFisica();
 
 public:
     //Constructor
     Jugador();
     //Destructor
     virtual ~Jugador();
+
+    //Accesos
+    bool getCambioAnimaciones(); //Cambios para evitar problemas un dangling pointer
+    const sf::Vector2f getPosition() const;
+    const sf::FloatRect getGlobalValores() const;
+
+    //Modificadores
+    void setPosition(const float x,const float y);
+    void restveloY();
+    void setPuedeSaltar(const bool puedeSaltar)
+    {
+        this->puedeSaltar = puedeSaltar;
+    }
+
     //Funciones
+    void resetTimerAnimacion();
     void move(const float dir_x,const float dir_y);
-    void updateGravedad();
+    void updateFisica();
     void updateMovJugador();
     void updateAnimaciones();
     void update();
     void render(sf::RenderTarget& target);
 };
-
-
-#endif //CMAKESFMLPROJECT_JUGADOR_H

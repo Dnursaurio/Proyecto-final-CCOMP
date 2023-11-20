@@ -10,12 +10,16 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 add_executable(CMakeSFMLProject src/main.cpp
+        src/Includes/libs.cpp
+        src/Includes/libs.h
         src/Juego.cpp
         src/Juego.h
         src/Jugador.cpp
         src/Jugador.h
-        src/Includes/libs.h
-        src/Includes/libs.cpp
+        src/Mapa.cpp
+        src/Mapa.h
+        src/Plataforma.cpp
+        src/Plataforma.h
 )
 target_link_libraries(CMakeSFMLProject PRIVATE sfml-graphics)
 target_compile_features(CMakeSFMLProject PRIVATE cxx_std_17)

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master
+CMAKE_SOURCE_DIR = E:\Byteland_alt\SFML-Fin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Byteland_alt\SFML-Fin\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug/CPackSourceConfig.cmake
+	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake E:/Byteland_alt/SFML-Fin/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,9 +151,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Byteland_alt\SFML-Fin\cmake-build-debug\CMakeFiles E:\Byteland_alt\SFML-Fin\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\estar\Downloads\Proyecto-final-CCOMP-main\Proyecto-final-CCOMP-main\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Byteland_alt\SFML-Fin\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -343,6 +343,54 @@ src/Jugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Jugador.cpp.s
 .PHONY : src/Jugador.cpp.s
 
+src/Mapa.obj: src/Mapa.cpp.obj
+.PHONY : src/Mapa.obj
+
+# target to build an object file
+src/Mapa.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Mapa.cpp.obj
+.PHONY : src/Mapa.cpp.obj
+
+src/Mapa.i: src/Mapa.cpp.i
+.PHONY : src/Mapa.i
+
+# target to preprocess a source file
+src/Mapa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Mapa.cpp.i
+.PHONY : src/Mapa.cpp.i
+
+src/Mapa.s: src/Mapa.cpp.s
+.PHONY : src/Mapa.s
+
+# target to generate assembly for a file
+src/Mapa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Mapa.cpp.s
+.PHONY : src/Mapa.cpp.s
+
+src/Plataforma.obj: src/Plataforma.cpp.obj
+.PHONY : src/Plataforma.obj
+
+# target to build an object file
+src/Plataforma.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Plataforma.cpp.obj
+.PHONY : src/Plataforma.cpp.obj
+
+src/Plataforma.i: src/Plataforma.cpp.i
+.PHONY : src/Plataforma.i
+
+# target to preprocess a source file
+src/Plataforma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Plataforma.cpp.i
+.PHONY : src/Plataforma.cpp.i
+
+src/Plataforma.s: src/Plataforma.cpp.s
+.PHONY : src/Plataforma.s
+
+# target to generate assembly for a file
+src/Plataforma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Plataforma.cpp.s
+.PHONY : src/Plataforma.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -397,6 +445,12 @@ help:
 	@echo ... src/Jugador.obj
 	@echo ... src/Jugador.i
 	@echo ... src/Jugador.s
+	@echo ... src/Mapa.obj
+	@echo ... src/Mapa.i
+	@echo ... src/Mapa.s
+	@echo ... src/Plataforma.obj
+	@echo ... src/Plataforma.i
+	@echo ... src/Plataforma.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
