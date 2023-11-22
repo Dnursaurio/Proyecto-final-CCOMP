@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    srand(static_cast<unsigned>(time(0)));
+    srand(static_cast<unsigned>(time(nullptr)));
 
     Juego juego;
 

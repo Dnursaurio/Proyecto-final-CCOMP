@@ -1,5 +1,8 @@
 #include "Includes/libs.h"
 #include "Jugador.h"
+void paso() { //ojo
+    std::cout << "PASO!!" << ":";
+}
 
 void Jugador::inicializarVariables()
 {
@@ -10,7 +13,7 @@ void Jugador::inicializartextura()
 {
     if (!this->textureSheet.loadFromFile("Textures/player_sheet.png"))
     {
-        std::cout << "Error::Jugador::No se puede cargar el player_sheet.png!" << std::endl;
+        //std::cout << "Error::Jugador::No se puede cargar el player_sheet.png!" << std::endl;
     }
 }
 
@@ -56,10 +59,7 @@ bool Jugador::getCambioAnimaciones() //Cambios para evitar problemas un dangling
 {
     bool anim_switch = this->cambioAnimaciones;
 
-    if (this->cambioAnimaciones)
-    {
-        this->cambioAnimaciones = false;
-    }
+    this->cambioAnimaciones = !this->cambioAnimaciones;
 
     return anim_switch;
 }
@@ -129,8 +129,8 @@ void Jugador::updateFisica()
 
 void Jugador::updateMovJugador()
 {
-    this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
-
+    //this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
+    //std::cout << this->fotogramas << ":";
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))//Izquierda
     {
         this->move(-1.f, 0.f);
@@ -155,19 +155,25 @@ void Jugador::updateMovJugador()
    {
        this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::IZQ;
    }
-   else
-       this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
+    if (this->velo.x == 0.f)
+    {
+        this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
+    }
+   //else
+   //    this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
 }
 
 void Jugador::updateAnimaciones()
 {
     float porcentajeVelo = (std::abs(this->velo.x) / this->velomax);
-    std::cout << porcentajeVelo << std::endl;
+    //std::cout << porcentajeVelo << std::endl;
 
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::INAC)
     {
-        if (this->timerAnimacion.getElapsedTime().asMilliseconds() >= 200.f || this->getCambioAnimaciones()) //Velocidad de cambio de frames
+
+        if (this->timerAnimacion.getElapsedTime().asMilliseconds() >= 200.f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
         {
+            //paso();
             this->frameActual.top = 0.f;
             this->frameActual.left += 40.f;
             if (this->frameActual.left > 160.f)
@@ -234,4 +240,9 @@ void Jugador::render(sf::RenderTarget & target)
     circ.setRadius(2.f);
     circ.setPosition(this->sprite.getPosition());
     target.draw(circ);
+
+    sf::Text texto;
+    texto.setFillColor(sf::Color::Red);
+    texto.setPosition(this->sprite.getPosition());
+    target.draw(texto);
 }
