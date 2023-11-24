@@ -44,6 +44,7 @@ public:
     //Modificadores
     void setPosition(const float x,const float y);
     void restveloY();
+    void restveloX();
     void setPuedeSaltar(const bool puedeSaltar)
     {
         this->puedeSaltar = puedeSaltar;
@@ -51,7 +52,7 @@ public:
 
     //Funciones
     void resetTimerAnimacion();
-    void move(const float dir_x,const float dir_y);
+    void move(const float dir_x, const float dir_y);
     void updateFisica();
     void updateMovJugador();
     void updateAnimaciones();

@@ -22,7 +22,7 @@ void Juego::iniciarJugador()
 
 void Juego::iniciarMapaPlataformas()
 {
-    this->mapa_plataformas = new Mapa(20, 20, &this->plataformaSheet, 50);
+    this->mapa_plataformas = new Mapa(20, 20, &this->plataformaSheet, 30);
     this->mapa_plataformas->agregarPlataforma(0, 0);
 }
 
@@ -47,8 +47,9 @@ void Juego::updatePlayer()
 
 void Juego::updateColision()
 {
+
     //Colisión con la base de la ventana
-    if(this->jugador->getPosition().y + this->jugador->getGlobalValores().height > this->ventana.getSize().y)
+    if(this->jugador->getPosition().y + this->jugador->getGlobalValores().height > this->ventana.getSize().y )
     {
         this->jugador->setPuedeSaltar(true);
         this->jugador->restveloY();
@@ -56,6 +57,17 @@ void Juego::updateColision()
                 this->jugador->getPosition().x,
                 this->ventana.getSize().y - this->jugador->getGlobalValores().height);
     }
+    //Colisión con el lado derecho de la ventana
+    if(this->jugador->getPosition().x + this->jugador->getGlobalValores().width > this->ventana.getSize().x)
+    {
+        this->jugador->setPuedeSaltar(true);
+        this->jugador->restveloX();
+        this->jugador->setPosition(
+                this->jugador->getPosition().x - this->jugador->getGlobalValores().width,
+                this->ventana.getSize().y);
+        //std::cout << this->jugador->getGlobalValores().width<<":";
+    }
+
 }
 
 void Juego::updateMapaPlataformas()

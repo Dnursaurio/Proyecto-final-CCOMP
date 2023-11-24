@@ -19,7 +19,7 @@ public:
     //Constructor
     Juego();
     //Destructor
-    virtual ~Juego();
+    ~Juego();
     //Funciones
     void updatePlayer();
     void updateColision();

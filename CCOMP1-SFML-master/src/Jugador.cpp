@@ -84,6 +84,11 @@ void Jugador::restveloY()
     this->velo.y = 0.f;
 }
 
+void Jugador::restveloX()
+{
+    this->velo.x = 0.f;
+}
+
 void Jugador::resetTimerAnimacion()
 {
     this->timerAnimacion.restart();
@@ -171,7 +176,7 @@ void Jugador::updateAnimaciones()
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::INAC)
     {
 
-        if (this->timerAnimacion.getElapsedTime().asMilliseconds() >= 200.f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.02f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
         {
             //paso();
             this->frameActual.top = 0.f;
@@ -186,7 +191,7 @@ void Jugador::updateAnimaciones()
 
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::DERE)
     {
-        if (this->timerAnimacion.getElapsedTime().asMilliseconds() >= 40.f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.4f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
         {
             this->frameActual.top = 50.f;
             this->frameActual.left += 40.f;
@@ -203,7 +208,7 @@ void Jugador::updateAnimaciones()
 
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::IZQ)
     {
-        if (this->timerAnimacion.getElapsedTime().asMilliseconds() >= 40.f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.4f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
         {
             this->frameActual.top = 50.f;
             this->frameActual.left += 40.f;
@@ -217,6 +222,24 @@ void Jugador::updateAnimaciones()
         this->sprite.setScale(-3.f, 3.f);
         this->sprite.setOrigin(this->sprite.getGlobalBounds().width / 3.f, 0.f);
     }
+
+    if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::SALTO)
+    {
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.4f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
+        {
+            this->frameActual.top = 150.f;
+            this->frameActual.left += 40.f;
+            if (this->frameActual.left > 80.f)
+            {
+                this->frameActual.left = 0;
+            }
+            this->timerAnimacion.restart();
+            this->sprite.setTextureRect(this->frameActual);
+        }
+        this->sprite.setScale(-3.f, 3.f);
+        this->sprite.setOrigin(this->sprite.getGlobalBounds().width / 3.f, 0.f);
+    }
+
     else
     {
         this->timerAnimacion.restart();
