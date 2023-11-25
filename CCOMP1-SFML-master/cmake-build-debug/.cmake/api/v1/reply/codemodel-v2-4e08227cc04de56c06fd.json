@@ -11,7 +11,7 @@
 						1
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-7bff3f238fe3b8e7c920.json",
+					"jsonFile" : "directory-.-Debug-3a64eed31544c84e12ba.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -205,49 +205,49 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CMakeSFMLProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CMakeSFMLProject-Debug-6de160532ba98ec8a37d.json",
+					"jsonFile" : "target-CMakeSFMLProject-Debug-935c2db8636670168bdd.json",
 					"name" : "CMakeSFMLProject",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "sfml-audio::@a153e5727587c53fce98",
-					"jsonFile" : "target-sfml-audio-Debug-2d85e75ab3eff0b1b48c.json",
+					"jsonFile" : "target-sfml-audio-Debug-cf9d2cfac119c9b93b00.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-sfml-graphics-Debug-f361270c2d9ca25c5d77.json",
+					"jsonFile" : "target-sfml-graphics-Debug-47b083e6d82ba3f34f88.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-main::@81ec5539f1398dd625f6",
-					"jsonFile" : "target-sfml-main-Debug-1cc21715347e5ad6c3c3.json",
+					"jsonFile" : "target-sfml-main-Debug-4524a98abdb0efd61f8b.json",
 					"name" : "sfml-main",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-network::@d7f79968b2699e7782cb",
-					"jsonFile" : "target-sfml-network-Debug-1abb1277643ebaa6d0ad.json",
+					"jsonFile" : "target-sfml-network-Debug-9921f5df8ce4f9e73bca.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@8cb1db2982443611e568",
-					"jsonFile" : "target-sfml-system-Debug-516346b1436d4f7868de.json",
+					"jsonFile" : "target-sfml-system-Debug-222e2600394ac27a0dd6.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-window::@5730451e331e3690ae65",
-					"jsonFile" : "target-sfml-window-Debug-f412d9a96d298cc2d80f.json",
+					"jsonFile" : "target-sfml-window-Debug-ea22de0ef78dc4387a19.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}
@@ -257,8 +257,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master/cmake-build-debug",
-		"source" : "C:/Users/estar/Downloads/Proyecto-final-CCOMP-main/Proyecto-final-CCOMP-main/CCOMP1-SFML-master"
+		"build" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug",
+		"source" : "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master"
 	},
 	"version" : 
 	{
