@@ -13,14 +13,14 @@ void Jugador::inicializartextura()
 {
     if (!this->textureSheet.loadFromFile("Textures/player_sheet.png"))
     {
-        std::cout << "Error::Jugador::No se puede cargar el player_sheet.png!" << std::endl;
+        //std::cout << "Error::Jugador::No se puede cargar el player_sheet.png!" << std::endl;
     }
 }
 
 void Jugador::inicializarsprite()
 {
     this->sprite.setTexture(this->textureSheet);
-    this->frameActual = sf::IntRect(0, 0, 40, 50);
+    this->frameActual = sf::IntRect(0, 0, 35, 50);
         this->sprite.setTextureRect(this->frameActual);
     this->sprite.setScale(3.f, 3.f);
 }
@@ -124,7 +124,14 @@ void Jugador::updateFisica()
     {
         this->velo.y = 0.f;
     }
+    if (std::abs(this->velo.x) <= 1.f)
+    {
+        this->velo.x = 0.f;
+    }
+
     this->sprite.move(this->velo);
+
+
 
     if (this->sprite.getPosition().x < 0)
     {
@@ -152,7 +159,7 @@ void Jugador::updateMovJugador()
         this->move(1.f, 0.f);
     }
 
-   if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Space) && puedeSaltar)
+   if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) && puedeSaltar)
     {
         this->velo.y = -70.f;
         this->puedeSaltar = false;
@@ -263,15 +270,5 @@ void Jugador::render(sf::RenderTarget & target)
 {
     target.draw(this->sprite);
 
-    //Visualizar un punto en la esquina del sprite
-    sf::CircleShape circ;
-    circ.setFillColor(sf::Color::Red);
-    circ.setRadius(2.f);
-    circ.setPosition(this->sprite.getPosition());
-    target.draw(circ);
 
-    sf::Text texto;
-    texto.setFillColor(sf::Color::Red);
-    texto.setPosition(this->sprite.getPosition());
-    target.draw(texto);
 }

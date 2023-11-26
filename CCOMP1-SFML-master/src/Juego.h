@@ -1,6 +1,6 @@
 #pragma once
 #include "Jugador.h"
-#include "Plataforma.h"
+#include "Mapa.h"
 
 class Juego{
 private:
@@ -9,10 +9,9 @@ private:
     sf::Texture plataformaSheet;
 
     Jugador* jugador;
-    Plataforma* mapa_plataformas;
+    Mapa mapa_plataformas;
 
     void iniciarVentana();
-    void iniciarPlataformaSheet();
     void iniciarJugador();
     void iniciarMapaPlataformas();
 public:
@@ -23,7 +22,6 @@ public:
     //Funciones
     void updatePlayer();
     void updateColision();
-    void updateMapaPlataformas();
     void update();
 
     void renderPlayer();

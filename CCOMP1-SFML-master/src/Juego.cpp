@@ -1,5 +1,7 @@
 #include "Includes/libs.h"
 #include "Juego.h"
+#include "Mapa.h"
+
 
 void Juego::iniciarVentana()
 {
@@ -7,29 +9,15 @@ void Juego::iniciarVentana()
     this->ventana.setFramerateLimit(60); //Establecer el límite de frames para el movimiento
 }
 
-void Juego::iniciarPlataformaSheet()
-{
-    if (!this->plataformaSheet.loadFromFile("Textures/plataforma_Sheet.png"))
-    {
-        std::cout << "ERROR::GAME::No se puede cargar el plataforma_Sheet.png!" << std::endl;
-    }
-}
-
 void Juego::iniciarJugador()
 {
     this->jugador = new Jugador();
 }
 
-void Juego::iniciarMapaPlataformas()
-{
-    this->mapa_plataformas = new Plataforma(20, 20, &this->plataformaSheet, 30);
-    this->mapa_plataformas->agregarPlataforma(0,0);
-}
 
 Juego::Juego()
 {
     this->iniciarVentana();
-    this->iniciarPlataformaSheet();
     this->iniciarJugador();
     this->iniciarMapaPlataformas();
 }
@@ -37,7 +25,6 @@ Juego::Juego()
 Juego::~Juego()
 {
     delete this->jugador;
-    delete this->mapa_plataformas;
 }
 
 void Juego::updatePlayer()
@@ -57,23 +44,8 @@ void Juego::updateColision()
                 this->jugador->getPosition().x,
                 this->ventana.getSize().y - this->jugador->getGlobalValores().height);
     }
-    //Colisión con el lado derecho de la ventana
-    if(this->jugador->getPosition().x + this->jugador->getGlobalValores().width > this->ventana.getSize().x)
-    {
-        this->jugador->setPuedeSaltar(true);
-        this->jugador->restveloX();
-        this->jugador->setPosition(
-                this->jugador->getPosition().x - this->jugador->getGlobalValores().width,
-                this->ventana.getSize().y);
-        //std::cout << this->jugador->getGlobalValores().width<<":";
-    }
-
 }
 
-void Juego::updateMapaPlataformas()
-{
-    this->mapa_plataformas->update();
-}
 
 void Juego::update()
 {
@@ -105,7 +77,6 @@ void Juego::update()
 
     this->updatePlayer();
     this->updateColision();
-    this->updateMapaPlataformas();
 }
 
 void Juego::renderPlayer()
@@ -113,24 +84,29 @@ void Juego::renderPlayer()
     this->jugador->render(this->ventana);
 }
 
-void Juego::renderMapaPlataformas()
-{
-    this->mapa_plataformas->render(this->ventana);
-}
+
 
 void Juego::render()
 {
-    this->ventana.clear(sf::Color::Blue);
+    this->ventana.clear(sf::Color::Black);
 
-    //renderizar el juego
-    this->renderMapaPlataformas();
+    // Dibuja las plataformas del mapa
+    this->mapa_plataformas.render(this->ventana);
+
+    // Dibuja al jugador
     this->renderPlayer();
+
     this->ventana.display();
 }
 
 const sf::RenderWindow& Juego::getVentana() const
 {
     return this->ventana;
+}
+
+void Juego::iniciarMapaPlataformas() {
+    this->mapa_plataformas.agregarPlataforma(150, 550, 200, 18);
+    this->mapa_plataformas.agregarPlataforma(400, 400, 150, 20);
 }
 
 

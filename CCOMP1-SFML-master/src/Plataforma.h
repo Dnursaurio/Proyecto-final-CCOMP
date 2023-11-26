@@ -1,28 +1,22 @@
 #pragma once
-
-class Plataforma
-{
+#include <SFML/Graphics.hpp>
+class Plataforma {
 private:
-    sf::Sprite sprite;
-    std::vector< std::vector < Plataforma* > > mapa_plataformas;
-    sf::Texture* plataformaSheet;
-    unsigned plataformaSize;
-
+    sf::RectangleShape shape;
+    //coordenadas:
+    float x;
+    float y;
+    float width;
+    float height;
 public:
-    //Constructor
-    Plataforma(sf::Texture* texture_sheet,sf::IntRect texture_rect);
-    //Otro constructor
-    Plataforma(int ancho, int alto, sf::Texture* plataformaSheet, unsigned plataformaSize);
-    //Destructor
-    ~Plataforma();
-    //Accesos
-    const sf::Vector2f getPosition() const;
-    //Funciones
-    void setPosition(int x,int y);
-    const sf::FloatRect getGlobalValores() const;
-    void agregarPlataforma(float x, float y);
-    void removerPlataforma(unsigned x, unsigned y);
-    void update();
-    void render(sf::RenderTarget& target);
+    Plataforma(float x, float y, float width, float height): x(x), y(y), width(width), height(height) {
+        shape.setPosition(x, y);
+        shape.setSize(sf::Vector2f(width, height));
+        shape.setFillColor(sf::Color::Green);
+    }
+
+    sf::FloatRect getGlobalBounds();
+
+    void draw(sf::RenderTarget& target)const;
 };
 

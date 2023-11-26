@@ -57,5 +57,6 @@ public:
     void updateMovJugador();
     void updateAnimaciones();
     void update();
+
     void render(sf::RenderTarget& target);
 };
