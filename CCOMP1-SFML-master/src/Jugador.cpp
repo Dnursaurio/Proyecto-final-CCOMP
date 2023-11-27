@@ -143,6 +143,7 @@ void Jugador::updateFisica()
         this->velo.x = 0;
         this->sprite.setPosition(1280 - this->sprite.getGlobalBounds().width, this->sprite.getPosition().y);
     }
+
 }
 
 void Jugador::updateMovJugador()

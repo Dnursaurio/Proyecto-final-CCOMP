@@ -5,7 +5,7 @@
 
 void Juego::iniciarVentana()
 {
-    this->ventana.create(sf::VideoMode(1280,720),"Byteland",sf::Style::Close | sf::Style::Titlebar);
+    this->ventana.create(sf::VideoMode(1280,720),"Plataformas",sf::Style::Close | sf::Style::Titlebar);
     this->ventana.setFramerateLimit(60); //Establecer el límite de frames para el movimiento
 }
 
@@ -43,6 +43,14 @@ void Juego::updateColision()
         this->jugador->setPosition(
                 this->jugador->getPosition().x,
                 this->ventana.getSize().y - this->jugador->getGlobalValores().height);
+    }
+    if(this->jugador->getPosition().x >= 150 && this->jugador->getPosition().x < 350) {
+        this->jugador->setPuedeSaltar(false);
+    } //si el jugador esta debajo de la plataforma entonces no puede salta
+    else if(this->jugador->getPosition().x >= 168 && this->jugador->getPosition().x < 368)
+    {
+        this->jugador->setPuedeSaltar(true);
+        this->jugador->restveloY();
     }
 }
 
