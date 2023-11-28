@@ -13,7 +13,7 @@ void Jugador::inicializartextura()
 {
     if (!this->textureSheet.loadFromFile("Textures/player_sheet.png"))
     {
-        //std::cout << "Error::Jugador::No se puede cargar el player_sheet.png!" << std::endl;
+        std::cout << "Error::Jugador::No se puede cargar el player_sheet.png!" << std::endl;
     }
 }
 
@@ -22,7 +22,7 @@ void Jugador::inicializarsprite()
     this->sprite.setTexture(this->textureSheet);
     this->frameActual = sf::IntRect(0, 0, 35, 50);
         this->sprite.setTextureRect(this->frameActual);
-    this->sprite.setScale(3.f, 3.f);
+    this->sprite.setScale(1.5f, 1.5f);
 }
 
 void Jugador::inicializarAnimaciones()
@@ -132,7 +132,7 @@ void Jugador::updateFisica()
     this->sprite.move(this->velo);
 
 
-
+    //cOLISION CON LOS LATERALES DEL MAPA
     if (this->sprite.getPosition().x < 0)
     {
         this->velo.x = 0;
@@ -143,6 +143,7 @@ void Jugador::updateFisica()
         this->velo.x = 0;
         this->sprite.setPosition(1280 - this->sprite.getGlobalBounds().width, this->sprite.getPosition().y);
     }
+
 }
 
 void Jugador::updateMovJugador()
@@ -161,7 +162,7 @@ void Jugador::updateMovJugador()
 
    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) && puedeSaltar)
     {
-        this->velo.y = -70.f;
+        this->velo.y = -65.f;
         this->puedeSaltar = false;
     }
 
@@ -215,7 +216,7 @@ void Jugador::updateAnimaciones()
             this->timerAnimacion.restart();
             this->sprite.setTextureRect(this->frameActual);
         }
-        this->sprite.setScale(3.f, 3.f);
+        this->sprite.setScale(1.5f, 1.5f);
         this->sprite.setOrigin(0.f, 0.f);
     }
 
@@ -232,13 +233,13 @@ void Jugador::updateAnimaciones()
             this->timerAnimacion.restart();
             this->sprite.setTextureRect(this->frameActual);
         }
-        this->sprite.setScale(-3.f, 3.f);
+        this->sprite.setScale(-1.5f, 1.5f);
         this->sprite.setOrigin(this->sprite.getGlobalBounds().width / 3.f, 0.f);
     }
 
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::SALTO)
     {
-        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.4f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.2f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
         {
             this->frameActual.top = 150.f;
             this->frameActual.left += 40.f;
@@ -249,7 +250,7 @@ void Jugador::updateAnimaciones()
             this->timerAnimacion.restart();
             this->sprite.setTextureRect(this->frameActual);
         }
-        this->sprite.setScale(-3.f, 3.f);
+        this->sprite.setScale(-1.5f, 1.5f);
         this->sprite.setOrigin(this->sprite.getGlobalBounds().width / 3.f, 0.f);
     }
 

@@ -5,7 +5,7 @@
 
 void Juego::iniciarVentana()
 {
-    this->ventana.create(sf::VideoMode(1280,720),"Byteland",sf::Style::Close | sf::Style::Titlebar);
+    this->ventana.create(sf::VideoMode(1280,720),"Plataformas",sf::Style::Close | sf::Style::Titlebar);
     this->ventana.setFramerateLimit(60); //Establecer el límite de frames para el movimiento
 }
 
@@ -43,6 +43,35 @@ void Juego::updateColision()
         this->jugador->setPosition(
                 this->jugador->getPosition().x,
                 this->ventana.getSize().y - this->jugador->getGlobalValores().height);
+    }
+
+    const sf::FloatRect jugadorBounds = this->jugador->getGlobalValores();
+    for (auto& plataforma : this->mapa_plataformas.getPlataformas())
+    {
+        const sf::FloatRect plataformaBounds = plataforma.getGlobalBounds();
+
+
+        if (jugadorBounds.intersects(plataformaBounds))
+        {
+            // Colisión por encima
+            if (jugadorBounds.top < plataformaBounds.top)
+            {
+                this->jugador->setPuedeSaltar(true);
+                this->jugador->restveloY();
+                this->jugador->setPosition(
+                        this->jugador->getPosition().x,
+                        plataformaBounds.top - jugadorBounds.height);
+            }
+                // Colisión por debajo
+            else if (jugadorBounds.top > plataformaBounds.top)
+            {
+                this->jugador->setPosition(
+                        this->jugador->getPosition().x,
+                        plataformaBounds.top + plataformaBounds.height);
+                this->jugador->restveloY();
+                break;  // Salir del bucle después de ajustar la posición del jugador
+            }
+        }
     }
 }
 
@@ -105,9 +134,28 @@ const sf::RenderWindow& Juego::getVentana() const
 }
 
 void Juego::iniciarMapaPlataformas() {
-    this->mapa_plataformas.agregarPlataforma(150, 550, 200, 18);
-    this->mapa_plataformas.agregarPlataforma(400, 400, 150, 20);
+    this->mapa_plataformas.agregarPlataforma(-1, 400, 100, 18);
+
+
+    this->mapa_plataformas.agregarPlataforma(900, 200, 100, 18);
+    this->mapa_plataformas.agregarPlataforma(600, 100, 100, 18);
+
+    this->mapa_plataformas.agregarPlataforma(170, 590, 90000, 18);
+
+
+
+
+
+    this->mapa_plataformas.agregarPlataforma(340, 408, 100, 200);
+    this->mapa_plataformas.agregarPlataforma(620, 408, 100, 200);
+
+    this->mapa_plataformas.agregarPlataforma(900, 450, 100, 150);
+    this->mapa_plataformas.agregarPlataforma(1180, 408, 100, 200);
+
 }
+
+
+
 
 
 

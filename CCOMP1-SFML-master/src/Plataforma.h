@@ -15,8 +15,12 @@ public:
         shape.setFillColor(sf::Color::Green);
     }
 
-    sf::FloatRect getGlobalBounds();
+    sf::FloatRect getGlobalBounds()const;
 
     void draw(sf::RenderTarget& target)const;
+    float getX() const { return x; }
+    float getY() const { return y; }
+    float getWidth() const { return width; }
+    float getHeight() const { return height; }
 };
 

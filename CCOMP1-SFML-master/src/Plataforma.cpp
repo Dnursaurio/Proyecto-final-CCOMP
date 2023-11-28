@@ -1,7 +1,7 @@
 # include "Includes/libs.h"
 # include "Plataforma.h"
 
-sf::FloatRect Plataforma::getGlobalBounds() {
+sf::FloatRect Plataforma::getGlobalBounds()const {
     return shape.getGlobalBounds();
 }
 

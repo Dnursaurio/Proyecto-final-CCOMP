@@ -11,3 +11,7 @@ void Mapa::render(sf::RenderTarget &target) {
         plataforma.draw(target);
     }
 }
+
+const std::vector<Plataforma> &Mapa::getPlataformas() const {
+    return plataformas;
+}
