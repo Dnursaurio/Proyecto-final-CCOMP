@@ -3,16 +3,23 @@
 class Plataforma
 {
 private:
-    sf::Sprite sprite;
-    const bool dano;
+    sf::RectangleShape shape;
 
+    //coordenadas:
+    float x;
+    float y;
+    float width;
+    float height;
 public:
-    //Constructor
-    Plataforma(sf::Texture* texture_sheet,sf::IntRect texture_rect,bool dano = false);
+    Plataforma(float x, float y, float width, float height): x(x), y(y), width(width), height(height) {
+        shape.setPosition(x, y);
+        shape.setSize(sf::Vector2f(width, height));
+        shape.setFillColor(sf::Color::Green);
+    }
 
-    //Funciones
-    const sf::FloatRect getGlobalValores() const;
-    void update();
-    void render(sf::RenderTarget& target);
+    sf::FloatRect getGlobalBounds() const;
+
+    void draw(sf::RenderTarget& target)const;
+
 };
 

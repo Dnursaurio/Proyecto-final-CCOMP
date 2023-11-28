@@ -2,35 +2,35 @@
 #include "Jugador.h"
 #include "Mapa.h"
 
-class Juego{
+class Juego
+{
 private:
     sf::RenderWindow ventana;
     sf::Event evento;
     sf::Texture plataformaSheet;
 
     Jugador* jugador;
-    Mapa* mapa_plataformas;
+    Mapa mapaPlataformas;
 
+    // Funciones privadas de inicialización
     void iniciarVentana();
-    void iniciarPlataformaSheet();
     void iniciarJugador();
     void iniciarMapaPlataformas();
+
 public:
-    //Constructor
+    // Constructores y destructor
     Juego();
-    //Destructor
     ~Juego();
-    //Funciones
+
+    // Funciones de actualización
     void updatePlayer();
     void updateColision();
-    void updateMapaPlataformas();
     void update();
 
+    // Funciones de renderizado
     void renderPlayer();
-    void renderMapaPlataformas();
     void render();
 
+    // Acceso a la ventana
     const sf::RenderWindow& getVentana() const;
 };
-
-
