@@ -1,0 +1,116 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "MinGW Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe",
+			"cpack" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cpack.exe",
+			"ctest" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/ctest.exe",
+			"root" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 26,
+			"patch" : 4,
+			"string" : "3.26.4",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-c0ce6a62b315dbc0a9dd.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 5
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-8cebd1b0628be8f1fcc8.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+<<<<<<<< HEAD:CCOMP1-SFML-master/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-28T02-58-57-0640.json
+			"jsonFile" : "cmakeFiles-v1-62d02cb20c56f1481d8e.json",
+========
+			"jsonFile" : "cmakeFiles-v1-61dbd286a3288859ed3c.json",
+>>>>>>>> 8e8e26cc331140c29784c919740dcd58c453ee90:CCOMP1-SFML-master/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-27T16-35-01-0382.json
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-7091ce0b2c8181d2a4c4.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-8cebd1b0628be8f1fcc8.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1" : 
+		{
+<<<<<<<< HEAD:CCOMP1-SFML-master/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-28T02-58-57-0640.json
+			"jsonFile" : "cmakeFiles-v1-62d02cb20c56f1481d8e.json",
+========
+			"jsonFile" : "cmakeFiles-v1-61dbd286a3288859ed3c.json",
+>>>>>>>> 8e8e26cc331140c29784c919740dcd58c453ee90:CCOMP1-SFML-master/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-27T16-35-01-0382.json
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-c0ce6a62b315dbc0a9dd.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 5
+			}
+		},
+		"toolchains-v1" : 
+		{
+			"jsonFile" : "toolchains-v1-7091ce0b2c8181d2a4c4.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	}
+}

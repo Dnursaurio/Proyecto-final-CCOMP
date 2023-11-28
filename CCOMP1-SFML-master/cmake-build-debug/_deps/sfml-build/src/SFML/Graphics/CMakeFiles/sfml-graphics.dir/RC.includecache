@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Graphics/sfml-graphics.rc
+E:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Graphics/sfml-graphics.rc
 winresrc.h
-D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Graphics/winresrc.h
+E:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/src/SFML/Graphics/winresrc.h
 

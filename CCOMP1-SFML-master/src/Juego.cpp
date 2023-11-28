@@ -44,6 +44,7 @@ void Juego::updateColision()
                 this->jugador->getPosition().x,
                 this->ventana.getSize().y - this->jugador->getGlobalValores().height);
     }
+<<<<<<< HEAD
 
     const sf::FloatRect jugadorBounds = this->jugador->getGlobalValores();
     for (auto& plataforma : this->mapa_plataformas.getPlataformas())
@@ -72,6 +73,15 @@ void Juego::updateColision()
                 break;  // Salir del bucle después de ajustar la posición del jugador
             }
         }
+=======
+    if(this->jugador->getPosition().x >= 150 && this->jugador->getPosition().x < 350) {
+        this->jugador->setPuedeSaltar(false);
+    } //si el jugador esta debajo de la plataforma entonces no puede salta
+    else if(this->jugador->getPosition().x >= 168 && this->jugador->getPosition().x < 368)
+    {
+        this->jugador->setPuedeSaltar(true);
+        this->jugador->restveloY();
+>>>>>>> 8e8e26cc331140c29784c919740dcd58c453ee90
     }
 }
 
