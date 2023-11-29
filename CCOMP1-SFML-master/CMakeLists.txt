@@ -20,6 +20,8 @@ add_executable(CMakeSFMLProject src/main.cpp
         src/Mapa.h
         src/Plataforma.cpp
         src/Plataforma.h
+        src/Plataforma_statica.cpp
+        src/Plataforma_statica.h
 )
 target_link_libraries(CMakeSFMLProject PRIVATE sfml-graphics)
 target_compile_features(CMakeSFMLProject PRIVATE cxx_std_17)

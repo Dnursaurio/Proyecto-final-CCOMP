@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Proyecto-final-CCOMP\CCOMP1-SFML-master
+CMAKE_SOURCE_DIR = D:\Proyecto-final-CCOMP\CCOMP1-SFML-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake E:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/CPackSourceConfig.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -87,7 +87,7 @@ package_source/fast: package_source
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -97,7 +97,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -116,44 +116,44 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"D:\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles E:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Proyecto-final-CCOMP\CCOMP1-SFML-master\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -391,6 +391,30 @@ src/Plataforma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Plataforma.cpp.s
 .PHONY : src/Plataforma.cpp.s
 
+src/Plataforma_statica.obj: src/Plataforma_statica.cpp.obj
+.PHONY : src/Plataforma_statica.obj
+
+# target to build an object file
+src/Plataforma_statica.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Plataforma_statica.cpp.obj
+.PHONY : src/Plataforma_statica.cpp.obj
+
+src/Plataforma_statica.i: src/Plataforma_statica.cpp.i
+.PHONY : src/Plataforma_statica.i
+
+# target to preprocess a source file
+src/Plataforma_statica.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Plataforma_statica.cpp.i
+.PHONY : src/Plataforma_statica.cpp.i
+
+src/Plataforma_statica.s: src/Plataforma_statica.cpp.s
+.PHONY : src/Plataforma_statica.s
+
+# target to generate assembly for a file
+src/Plataforma_statica.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeSFMLProject.dir\build.make CMakeFiles/CMakeSFMLProject.dir/src/Plataforma_statica.cpp.s
+.PHONY : src/Plataforma_statica.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -451,6 +475,9 @@ help:
 	@echo ... src/Plataforma.obj
 	@echo ... src/Plataforma.i
 	@echo ... src/Plataforma.s
+	@echo ... src/Plataforma_statica.obj
+	@echo ... src/Plataforma_statica.i
+	@echo ... src/Plataforma_statica.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

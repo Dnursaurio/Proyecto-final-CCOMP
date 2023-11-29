@@ -9,6 +9,14 @@ void Plataforma::draw(sf::RenderTarget &target)const{
     target.draw(shape);
 }
 
+bool Plataforma::movimientoplataforma() const {
+    if(puedemoverse == true)
+    {
+
+    }
+    return false;
+}
+
 
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: E:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Main
+# Install script for directory: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/src/SFML/Main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/JetBrains/CLion 2023.2.2/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/lib/libsfml-main-d.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-build/lib/libsfml-main-d.a")
 endif()
 

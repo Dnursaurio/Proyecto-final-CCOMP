@@ -2,8 +2,8 @@
 #include "Mapa.h"
 
 
-void Mapa::agregarPlataforma(float x, float y, float width, float height) {
-    plataformas.push_back(Plataforma(x, y, width, height));
+void Mapa::agregarPlataforma(float x, float y, float width, float height, const bool puedemoverse) {
+    plataformas.push_back(Plataforma_static(x, y, width, height, puedemoverse));
 }
 
 void Mapa::render(sf::RenderTarget &target) {
@@ -12,6 +12,6 @@ void Mapa::render(sf::RenderTarget &target) {
     }
 }
 
-const std::vector<Plataforma> &Mapa::getPlataformas() const {
+const std::vector<Plataforma_static> &Mapa::getPlataformas() const {
     return plataformas;
 }

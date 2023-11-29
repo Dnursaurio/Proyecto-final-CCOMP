@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CMakeSFMLProject.dir/src/Mapa.cpp.obj.d"
   "CMakeFiles/CMakeSFMLProject.dir/src/Plataforma.cpp.obj"
   "CMakeFiles/CMakeSFMLProject.dir/src/Plataforma.cpp.obj.d"
+  "CMakeFiles/CMakeSFMLProject.dir/src/Plataforma_statica.cpp.obj"
+  "CMakeFiles/CMakeSFMLProject.dir/src/Plataforma_statica.cpp.obj.d"
   "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj"
   "CMakeFiles/CMakeSFMLProject.dir/src/main.cpp.obj.d"
   "bin/CMakeSFMLProject.exe"
