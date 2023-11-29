@@ -1,10 +1,12 @@
 #include "Includes/libs.h"
 #include "Jugador.h"
+void paso() { //ojo
+    std::cout << "PASO!!" << ":";
+}
 
-// Funciones de inicialización
 void Jugador::inicializarVariables()
 {
-    this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
+    this->fotogramas= ESTADOS_DE_NIMACION_JUGADOR::INAC;
 }
 
 void Jugador::inicializartextura()
@@ -18,13 +20,8 @@ void Jugador::inicializartextura()
 void Jugador::inicializarsprite()
 {
     this->sprite.setTexture(this->textureSheet);
-<<<<<<< HEAD
     this->frameActual = sf::IntRect(0, 0, 35, 50);
         this->sprite.setTextureRect(this->frameActual);
-=======
-    this->frameActual = sf::IntRect(0, 0, 40, 50);  // Ancho de cada frame
-    this->sprite.setTextureRect(this->frameActual);
->>>>>>> f9de81e045e5e1c243ca8d1a46d1e6f10ad4c40e
     this->sprite.setScale(1.5f, 1.5f);
 }
 
@@ -46,7 +43,6 @@ void Jugador::inicializarFisica()
     this->puedeSaltar = false;
 }
 
-// Constructor y destructor
 Jugador::Jugador()
 {
     this->inicializarVariables();
@@ -58,11 +54,13 @@ Jugador::Jugador()
 
 Jugador::~Jugador(){}
 
-// Funciones de acceso
-bool Jugador::getCambioAnimaciones()
+
+bool Jugador::getCambioAnimaciones() //Cambios para evitar problemas un dangling pointer
 {
     bool anim_switch = this->cambioAnimaciones;
+
     this->cambioAnimaciones = !this->cambioAnimaciones;
+
     return anim_switch;
 }
 
@@ -76,7 +74,7 @@ const sf::FloatRect Jugador::getGlobalValores() const
     return this->sprite.getGlobalBounds();
 }
 
-void Jugador::setPosition(float x, float y)
+void Jugador::setPosition(const float x, const float y)
 {
     this->sprite.setPosition(x, y);
 }
@@ -97,28 +95,27 @@ void Jugador::resetTimerAnimacion()
     this->cambioAnimaciones = true;
 }
 
-// Funciones de actualización
 void Jugador::move(const float dir_x, const float dir_y)
 {
-    // Aceleración
+    //Aceleracion
     this->velo.x += dir_x * this->ace;
 
-    // Velocidad límite
+    //velocidad limite
     if (std::abs(this->velo.x) > this->velomax)
     {
-        this->velo.x = this->velomax * ((this->velo.x < 0.f) ? -1.f : 1.f);
+        this->velo.x = this-> velomax * ((this->velo.x < 0.f) ? -1.f : 1.f);
     }
 }
 
 void Jugador::updateFisica()
 {
-    // Gravedad
+    //Gravedad
     this->velo.y += 1.0 * this->gravedad;
 
-    // Desaceleración
+    //Desaceleracion
     this->velo *= this->desa;
 
-    // Límite de desaceleración
+    //limite de desaceleracion
     if (std::abs(this->velo.x) < this->velomin)
     {
         this->velo.x = 0.f;
@@ -126,20 +123,16 @@ void Jugador::updateFisica()
     if (std::abs(this->velo.y) < this->velomin)
     {
         this->velo.y = 0.f;
-        this->puedeSaltar = true;  // Permitir saltar cuando la velocidad en y es baja
     }
     if (std::abs(this->velo.x) <= 1.f)
     {
         this->velo.x = 0.f;
     }
+
     this->sprite.move(this->velo);
 
-<<<<<<< HEAD
 
     //cOLISION CON LOS LATERALES DEL MAPA
-=======
-    // Límites de pantalla
->>>>>>> f9de81e045e5e1c243ca8d1a46d1e6f10ad4c40e
     if (this->sprite.getPosition().x < 0)
     {
         this->velo.x = 0;
@@ -150,58 +143,56 @@ void Jugador::updateFisica()
         this->velo.x = 0;
         this->sprite.setPosition(1280 - this->sprite.getGlobalBounds().width, this->sprite.getPosition().y);
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> f9de81e045e5e1c243ca8d1a46d1e6f10ad4c40e
 }
 
 void Jugador::updateMovJugador()
 {
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) // Izquierda
+    //this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
+    //std::cout << this->fotogramas << ":";
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))//Izquierda
     {
         this->move(-1.f, 0.f);
     }
 
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) // Derecha
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))//Derecha
     {
         this->move(1.f, 0.f);
     }
 
-<<<<<<< HEAD
    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) && puedeSaltar)
     {
         this->velo.y = -65.f;
-=======
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) && puedeSaltar)
-    {
-        this->velo.y = -15.f;
->>>>>>> f9de81e045e5e1c243ca8d1a46d1e6f10ad4c40e
         this->puedeSaltar = false;
     }
 
-    if (this->velo.x > 0.f)
-    {
-        this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::DERE;
-    }
-    else if (this->velo.x < 0.f)
-    {
-        this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::IZQ;
-    }
-    else
+   if(this->velo.x > 0.f)
+   {
+       this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::DERE;
+   }
+   if (this->velo.x < 0.f)
+   {
+       this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::IZQ;
+   }
+    if (this->velo.x == 0.f)
     {
         this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
     }
+   //else
+   //    this->fotogramas = ESTADOS_DE_NIMACION_JUGADOR::INAC;
 }
 
 void Jugador::updateAnimaciones()
 {
     float porcentajeVelo = (std::abs(this->velo.x) / this->velomax);
+    //std::cout << porcentajeVelo << std::endl;
 
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::INAC)
     {
-        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.02f / porcentajeVelo || this->getCambioAnimaciones()) // Velocidad de cambio de frames
+
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.02f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
         {
+            //paso();
             this->frameActual.top = 0.f;
             this->frameActual.left += 40.f;
             if (this->frameActual.left > 160.f)
@@ -214,7 +205,7 @@ void Jugador::updateAnimaciones()
 
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::DERE)
     {
-        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.4f / porcentajeVelo || this->getCambioAnimaciones()) // Velocidad de cambio de frames
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.4f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
         {
             this->frameActual.top = 50.f;
             this->frameActual.left += 40.f;
@@ -231,7 +222,7 @@ void Jugador::updateAnimaciones()
 
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::IZQ)
     {
-        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.4f / porcentajeVelo || this->getCambioAnimaciones()) // Velocidad de cambio de frames
+        if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.4f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
         {
             this->frameActual.top = 50.f;
             this->frameActual.left += 40.f;
@@ -248,15 +239,11 @@ void Jugador::updateAnimaciones()
 
     if (this->fotogramas == ESTADOS_DE_NIMACION_JUGADOR::SALTO)
     {
-<<<<<<< HEAD
         if (this->timerAnimacion.getElapsedTime().asSeconds() >= 0.2f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
-=======
-        if (this->timerAnimacion.getElapsedTime().asMilliseconds() >= 40.f / porcentajeVelo || this->getCambioAnimaciones()) //Velocidad de cambio de frames
->>>>>>> f9de81e045e5e1c243ca8d1a46d1e6f10ad4c40e
         {
             this->frameActual.top = 150.f;
-            this->frameActual.left +=  40.f;
-            if (this->frameActual.left > 360.f)
+            this->frameActual.left += 40.f;
+            if (this->frameActual.left > 80.f)
             {
                 this->frameActual.left = 0;
             }
@@ -266,7 +253,6 @@ void Jugador::updateAnimaciones()
         this->sprite.setScale(-1.5f, 1.5f);
         this->sprite.setOrigin(this->sprite.getGlobalBounds().width / 3.f, 0.f);
     }
-
 
     else
     {
@@ -284,9 +270,6 @@ void Jugador::update()
 void Jugador::render(sf::RenderTarget & target)
 {
     target.draw(this->sprite);
-<<<<<<< HEAD
 
 
-=======
->>>>>>> f9de81e045e5e1c243ca8d1a46d1e6f10ad4c40e
 }

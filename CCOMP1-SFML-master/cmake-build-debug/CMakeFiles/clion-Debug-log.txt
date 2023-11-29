@@ -25,6 +25,6 @@
 -- Found OpenAL: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a  
 -- Found VORBIS: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a  
 -- Found FLAC: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a  
--- Configuring done (21.3s)
+-- Configuring done (60.4s)
 -- Generating done (0.2s)
 -- Build files have been written to: D:/Proyecto-final-CCOMP/CCOMP1-SFML-master/cmake-build-debug

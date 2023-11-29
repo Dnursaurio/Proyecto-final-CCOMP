@@ -1,6 +1,5 @@
 #include "Includes/libs.h"
 #include "Juego.h"
-
 using namespace std;
 int main()
 {
