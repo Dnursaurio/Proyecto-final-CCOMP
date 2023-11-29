@@ -2,18 +2,19 @@
 
 enum ESTADOS_DE_NIMACION_JUGADOR{INAC=0,IZQ, DERE,SALTO,CAIDA};
 
-class Jugador{
+class Jugador {
 private:
-    sf::Sprite sprite;
+    // Textura y sprite
     sf::Texture textureSheet;
-    sf::Clock timerAnimacion;
+    sf::Sprite sprite;
 
-    //Animación
+    // Animación
+    sf::Clock timerAnimacion;
     short fotogramas;
     sf::IntRect frameActual;
     bool cambioAnimaciones;
 
-    //Fisica
+    // Física
     sf::Vector2f velo;
     float velomax;
     float velomin;
@@ -23,7 +24,7 @@ private:
     float velomaxY;
     bool puedeSaltar;
 
-    //Centro
+    // Funciones privadas de inicialización
     void inicializarVariables();
     void inicializartextura();
     void inicializarsprite();
@@ -31,26 +32,25 @@ private:
     void inicializarFisica();
 
 public:
-    //Constructor
+    // Constructores y destructores
     Jugador();
-    //Destructor
     virtual ~Jugador();
 
-    //Accesos
-    bool getCambioAnimaciones(); //Cambios para evitar problemas un dangling pointer
+    // Accesos
+    bool getCambioAnimaciones();
     const sf::Vector2f getPosition() const;
     const sf::FloatRect getGlobalValores() const;
 
-    //Modificadores
-    void setPosition(const float x,const float y);
+    // Modificadores
+    void setPosition(float x, float y);
     void restveloY();
     void restveloX();
-    void setPuedeSaltar(const bool puedeSaltar)
+    void setPuedeSaltar(bool nuevoEstado)
     {
-        this->puedeSaltar = puedeSaltar;
+        this->puedeSaltar = nuevoEstado;
     }
 
-    //Funciones
+    // Funciones de actualización
     void resetTimerAnimacion();
     void move(const float dir_x, const float dir_y);
     void updateFisica();
@@ -58,5 +58,9 @@ public:
     void updateAnimaciones();
     void update();
 
+<<<<<<< HEAD
+=======
+    // Renderizado
+>>>>>>> f9de81e045e5e1c243ca8d1a46d1e6f10ad4c40e
     void render(sf::RenderTarget& target);
 };
